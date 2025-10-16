@@ -1,0 +1,184 @@
+Day-6
+
+16/10/2025
+
+Operators:
+Operator is a symbol that represents a specific operation on one or more operands.
+
+Syntax:
+
+Operand operator operand
+
+Eg: a+b;
+
+in the above a and b are called operands + is called an operator.
+
+Java supports different types of operators such as
+
+1) Arithmetic operators
+2) String concatenation operator(+)
+3) Increment and decrement operators
+4) Relational operators
+5) Bitwise operators
+6) Logical operators
+7) Assignment operators
+8) Ternary or conditional operator(?)
+
+
+1) Arithmetic operators:
+  (+,-,*,/,%)
+
+10+2.0=12.0;
+'a'+10=107
+
+* if we apply any Arithmetic operation between 2 variables a&b, the result type is always max(int, type of a, type of b).
+
+Example:
+
+byte byte=int
+byte+short-int
+short+short=int
+short+long=long
+double float=double
+int+double=double
+char+char=int
+char+int=int
+char+double=double
+
+
+System.out.println('a' + 'b'); // output: 195
+System.out.println('a' + 1); // output: 98
+System.out.println('a' + 1.2); // output: 98.2
+
+
+10/0 ArithmeticException will occur
+10.0/0 Infinity will occur
+-10.0/0 -Infinity will occur
+0.0/0 NaN
+-0.0/0 NaN
+
+
+2) String concatenation operator(+):
+
+* The only overloaded operator in java is '+' operator. some times it acts as a addition operator and some times it acts as string concatenation operator.
+
+* b/w to number = addition(Arithmetic operators)
+  b/w one number and one string String concatenation operator
+
+
+3) Increment and decrement operators:
+++,--
+
+pre-increment                   post-increment
+++a                              a++
+
+pre-decrement                   post-decrement
+--a                              a--
+
+
+Example:
+
+Expression              Initial value of x          value of y          final of x
+====================================================================================
+y=++x;                     10                         11                     11
+y+x++;                     10                         10                     11
+y=--x;                     10                          9                      9
+y=x--;                     10                         10                      9
+====================================================================================
+
+ASCI:
+
+a=97
+output 96
+
+A
+64
+
+98 --b
+a
+
+4) Relational operators:
+
+<,>,<=,>=,==,!=
+
+5) Bitwise operators:
+
+AND,OR,E-OR
+
+AND: if both are true return true.
+
+a      b        a&b
+0      0         0
+0      1         0
+1      0         0
+1      1         1
+
+
+OR:  if both are false return false.
+
+a      b        a|b
+0      0         0
+0      1         1
+1      0         1
+1      1         1
+
+E-OR: if both are different return true.
+
+a      b        a^b
+0      0         0
+0      1         1
+1      0         1
+1      1         0
+
+
+6) Logical operators:
+
+
+AND: if both are true return true.
+
+a      b        a&&b
+0      0         0
+0      1         0
+1      0         0
+1      1         1
+
+
+OR:  if both are false return false.
+
+a      b        a||b
+0      0         0
+0      1         1
+1      0         1
+1      1         1
+
+
+
+7) Assignment operators:
+
++=,-=,/=,%=,*/
+
+a=a+b;==>a+=b;
+
+a=a+b;
+
+
+8) Ternary or conditional operator(?):
+
+Syntax:
+
+(condition)?exp1:exp2
+
+if the condition is true exp1 will be evaluated.
+if the condition is false exp2 will be evaluated.
+
+
+
+
+
+
+
+
+
+
+
+
